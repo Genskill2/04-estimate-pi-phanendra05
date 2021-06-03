@@ -32,5 +32,5 @@ float wallis_pi(int n)
    k=(float)(4*i*i)/(4*i*i-1);
    ans=ans*k;
   }
-  return(2*ans);
+ return(2*ans);
 }
