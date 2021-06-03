@@ -46,7 +46,7 @@ float mc_pi(int a)
     float y=frandom();
     float d=sqrt(pow(x,2)+pow(y,2));
     if(d<1){
-      count++;
+     count++;
     }
   }
   float k=4*count/a;
